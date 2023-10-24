@@ -1,0 +1,17 @@
+{
+  "name": "hydroservernode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "websocket.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
