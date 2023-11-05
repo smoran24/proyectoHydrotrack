@@ -5,6 +5,7 @@
   "main": "websocket.js",
   "dependencies": {
     "express": "^4.18.2",
+    "mysql": "^2.18.1",
     "websocket": "^1.0.34"
   },
   "devDependencies": {},
