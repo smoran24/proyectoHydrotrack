@@ -1,10 +1,12 @@
 #include <ESP8266WiFi.h>
 #include <WebSocketsClient.h>
 
-const char* ssid = "Floresta";          // Cambia esto con el nombre de tu red Wi-Fi
-const char* password = "45203070";      // Cambia esto con la contraseña de tu red Wi-Fi
-const char* serverIP = "192.168.100.27"; // Cambia esto con la dirección IP de tu servidor Node.js local
-const int serverPort = 8080;            // Cambia esto con el puerto del servidor WebSocket
+const char* ssid = "Floresta";          // nombre de tu red Wi-Fi
+const char* password = "45203070";      // contraseña de tu red Wi-Fi
+const char* serverIP = "192.168.100.27"; // dirección IP de tu servidor Node.js local
+//const char* serverIP = "192.168.100.15";
+const int serverPort = 8080;            // puerto del servidor WebSocket
+//const int serverPort = 3000;
 WebSocketsClient webSocket;
 
 volatile int pulseCount = 0;
